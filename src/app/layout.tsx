@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Recursive } from "next/font/google";
+import { DM_Sans, Recursive } from "next/font/google";
 
 const recursive = Recursive({
   subsets: ["latin"],
 });
+
+// const dmSans = DM_Sans({
+//   subsets: ['latin'],
+//   // weight: ['400', '500', '700'], // specify your desired weights
+//   // display: 'swap',
+//   // // optional: enable CSS variable
+//   // variable: '--font-dm-sans',
+// });
+
 
 export const metadata: Metadata = {
   title: "SellSquare – List, Sell, and Buy Products Easily",
